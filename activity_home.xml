@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="launcher.example.recepdagli.simplelauncher.HomeActivity">
+
+   <Button
+       android:id="@+id/apps_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="showApps"
+       android:layout_centerInParent="true"
+       android:text="@string/show_apps"/>
+</RelativeLayout>
